@@ -1,0 +1,30 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 52px;
+}
+
+.blogDetails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.text {
+  width: 350px;
+}
+
+.buttonContent {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.blogDetails:not(:first-child) img {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
